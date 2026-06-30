@@ -1,0 +1,57 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Local env files containing sensitive credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scratch scripts
+scratch/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dynamic Audio assets
+public/audio/
+
+# SSL Keys, Certificates, and Private Credentials
+*.pem
+*.key
+*.pub
+*.pfx
+*.p12
+*.cert
+*.crt
+credentials.json
+secrets.json
+
+# Backup/Archive files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
